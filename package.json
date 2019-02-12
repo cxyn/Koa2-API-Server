@@ -1,0 +1,35 @@
+{
+  "name": "koa2-api-server",
+  "version": "1.0.0",
+  "description": "A Server of APIs with Koa2.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cxyn/Koa2-API-Server.git"
+  },
+  "keywords": [
+    "koa2"
+  ],
+  "author": "Colin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "mysql": "^2.16.0",
+    "koa-logger": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "bugs": {
+    "url": "https://github.com/cxyn/Koa2-API-Server/issues"
+  },
+  "homepage": "https://github.com/cxyn/Koa2-API-Server#readme"
+}
