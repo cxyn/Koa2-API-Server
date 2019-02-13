@@ -1,4 +1,4 @@
-const query = require('../db');
+const query = require('../config/db');
 async function showData (ctx, next) {
     let rows = await query('SELECT * FROM menu');
     ctx.body = {
